@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         user=new User();
         data=new ArrayList<>();
         data=user.getArrayListData();
+        //
         ListAdapter adapter=new ListAdapter(this,data);
         activityMainBinding.listview.setAdapter(adapter);
 
